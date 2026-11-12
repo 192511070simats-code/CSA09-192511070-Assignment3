@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Programming in Java - Assignment 3 (CO3)
 
@@ -37,3 +38,7 @@ java FileName
 
 Results, experimental data and output screenshots will be added after completing each task.
 
+=======
+# CSA09-192511070-Assignment3
+Programming in Java Assignment 3 - CO3
+>>>>>>> 837624fcab819eb4aa6da20bbddacb3556b9b0c7
