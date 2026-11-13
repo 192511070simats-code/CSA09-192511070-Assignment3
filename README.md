@@ -19,8 +19,8 @@ https://github.com/192511070simats-code/CSA09-192511070-Assignment3
 | Task | Topic | Status |
 |---|---|---|
 | Task 01 | ATM Exception Handling | Completed - 6 tests executed |
-| Task 02 | User-Defined Exceptions and Propagation | Pending |
-| Task 03 | Resource Safety and Debugging | Pending |
+| Task 02 | User-Defined Exceptions and Propagation | Completed |
+| Task 03 | Resource Safety and Debugging | Completed |
 | Task 04 | Thread Creation and Life Cycle | Pending |
 | Task 05 | Race Conditions and Synchronization | Pending |
 | Task 06 | Deadlock and Producer-Consumer | Pending |
