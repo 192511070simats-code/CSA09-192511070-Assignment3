@@ -25,7 +25,7 @@
 | Task 03 | Resource Safety and Debugging | Completed - debugger screenshot not captured |
 | Task 04 | Thread Creation and Thread Life Cycle | Completed |
 | Task 05 | Race Conditions and Synchronization | Completed |
-| Task 06 | Deadlock and Producer-Consumer | Pending |
+| Task 06 | Deadlock and Producer-Consumer | Completed |
 | Task 07 | Concurrent Fault-Tolerant Processor | Pending |
 
 ## Compile and Run
