@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Programming in Java - Assignment 3 (CO3)
 
 ## Student Details
