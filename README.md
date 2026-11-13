@@ -19,10 +19,10 @@ https://github.com/192511070simats-code/CSA09-192511070-Assignment3
 | Task | Topic | Status |
 |---|---|---|
 | Task 01 | ATM Exception Handling | Completed - 6 tests executed |
-| Task 02 | User-Defined Exceptions and Propagation | Pending |
-| Task 03 | Resource Safety and Debugging | Pending |
-| Task 04 | Thread Creation and Life Cycle | Pending |
-| Task 05 | Race Conditions and Synchronization | Pending |
+| Task 02 | User-Defined Exceptions and Propagation | Completed |
+| Task 03 | Resource Safety and Debugging | Completed |
+| Task 04 | Thread Creation and Life Cycle | Completed |
+| Task 05 | Race Conditions and Synchronization | Completed |
 | Task 06 | Deadlock and Producer-Consumer | Pending |
 | Task 07 | Concurrent Fault-Tolerant Processor | Pending |
 
@@ -87,3 +87,37 @@ Status: Completed
 - Identified a resource leak in manual resource management.
 - Demonstrated automatic resource closing and suppressed exceptions.
 - Added test screenshots and program output.
+
+### Task 04 – Thread Creation and the Thread Life Cycle
+
+**Status:** Completed
+
+**Programs:**
+- `ScannerStationDemo.java` – Implements scanner stations using Thread and Runnable.
+- `RunVsStartDemo.java` – Demonstrates the difference between run() and start().
+
+**Concepts Covered:**
+- Thread creation and life cycle.
+- Thread and Runnable implementations.
+- start(), run(), sleep(), join() and isAlive().
+- Thread priorities.
+- Daemon threads.
+- AtomicInteger for thread-safe counting.
+- ExecutorService as an alternative approach.
+
+**Test Results:**
+- Thread implementation – Passed.
+- Runnable implementation – Passed.
+- run() versus start() – Passed.
+- Ten execution runs – Passed; total of 45 scripts in each run.
+- Thread priority experiment – Passed.
+- Daemon thread experiment – Passed.
+
+**Evidence:**
+- Thread and Runnable output screenshots.
+- run() and start() comparison screenshot.
+- Priority experiment screenshots and execution log.
+- Daemon experiment screenshot and execution log.
+- Ten-run screenshots and execution log.
+
+All executed experiments produced the expected results.
