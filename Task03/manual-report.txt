@@ -1,0 +1,4 @@
+DAILY SALES REPORT
+Store A : 1200
+Store B : 1500
+Store C : 1800

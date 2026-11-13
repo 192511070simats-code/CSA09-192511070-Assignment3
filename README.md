@@ -78,3 +78,12 @@ Source code, test results, experimental data and output screenshots will be adde
 - Exception without original cause – Passed.
 
 All executed test cases produced the expected behaviour.
+
+### Task 03 – Resource Safety, Debugging and Robust Code
+Status: Completed
+
+- Compared manual resource closing with try-with-resources.
+- Tested valid and invalid store input files.
+- Identified a resource leak in manual resource management.
+- Demonstrated automatic resource closing and suppressed exceptions.
+- Added test screenshots and program output.
