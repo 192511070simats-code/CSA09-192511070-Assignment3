@@ -266,7 +266,39 @@ All three alternative approaches successfully booked 1,000 unique seats in the f
 
 ## Task 06 – Deadlock and Producer-Consumer
 
-**Status:** Pending
+**Status:** Completed
+
+**Program:**
+- `Task06Demo.java` – Demonstrates wallet deadlock, safe lock ordering, and a bounded producer-consumer token counter.
+
+**Concepts Covered:**
+- Deadlock and the four necessary conditions.
+- Deadlock detection using ThreadMXBean.
+- Lock ordering and deadlock prevention.
+- Synchronized methods.
+- `wait()` and `notifyAll()`.
+- Producer-consumer coordination.
+- Bounded circular buffer.
+- `while` versus `if` condition experiment.
+- `sleep()` versus `wait()`.
+- ArrayBlockingQueue and tryLock alternatives.
+
+**Test Results:**
+- Unsafe wallet transfers – Two deadlocked threads detected.
+- Safe wallet transfers – Completed without deadlock; total balance 2000.
+- Producer-consumer – 20 tokens collected successfully.
+- Buffer minimum size – 0.
+- Buffer maximum size – 5.
+- Total collected sum – 210.
+- Incorrect `if` experiment – Negative buffer count and incorrect total demonstrated.
+
+**Evidence:**
+- Deadlock detection screenshot.
+- Safe wallet transfer screenshot.
+- Producer-consumer screenshots.
+- `Q6_Correct_Output.txt`.
+- `Q6_If_Experiment.txt`.
+- Incorrect `if` experiment screenshots.
 
 ## Task 07 – Concurrent Fault-Tolerant Processor
 
