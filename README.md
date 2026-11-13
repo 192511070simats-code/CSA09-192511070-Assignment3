@@ -50,3 +50,31 @@ Six test conditions were executed:
 ## Task Results
 
 Source code, test results, experimental data and output screenshots will be added for each completed task.
+
+## Task 02 – User-Defined Exceptions and Exception Propagation
+
+**Status:** Completed
+
+**Programs:**
+- `StorageDemo.java` – Custom storage exception and exception chaining.
+- `PortalExceptionDemo.java` – Three examination portal failure scenarios.
+- `ChainingDemo.java` – Demonstration of getCause() and chained stack traces.
+
+**Concepts Covered:**
+- User-defined checked and unchecked exceptions.
+- Exception hierarchy.
+- throw and throws keywords.
+- Exception propagation across storage, service and controller layers.
+- Exception chaining using getCause().
+- Stack trace analysis.
+- Time and space complexity of stack traces.
+
+**Test Results:**
+- Successful file submission – Passed.
+- File exceeding 500 KB – Passed.
+- Examination window closed – Passed.
+- Student not registered – Passed.
+- Exception chaining with original cause – Passed.
+- Exception without original cause – Passed.
+
+All executed test cases produced the expected behaviour.
